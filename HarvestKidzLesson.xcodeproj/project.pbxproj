@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6742CA783805AEC7A36319F8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E94052A4246158058530F232 /* libPods.a */; };
+		AB73B7B21BDBB2E200BBC1D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB73B7B11BDBB2E200BBC1D2 /* main.m */; };
+		AB73B7B51BDBB2E200BBC1D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB73B7B41BDBB2E200BBC1D2 /* AppDelegate.m */; };
+		AB73B7BB1BDBB2E200BBC1D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB73B7B91BDBB2E200BBC1D2 /* Main.storyboard */; };
+		AB73B7BD1BDBB2E200BBC1D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB73B7BC1BDBB2E200BBC1D2 /* Assets.xcassets */; };
+		AB73B7C01BDBB2E200BBC1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB73B7BE1BDBB2E200BBC1D2 /* LaunchScreen.storyboard */; };
+		AB73B7C91BDBB55900BBC1D2 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB73B7C81BDBB55900BBC1D2 /* PDFViewController.m */; };
+		AB965E531BDBBA7B0064B8AB /* LessonsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB965E521BDBBA7B0064B8AB /* LessonsTableViewController.m */; };
+		AB965E551BDBBC2B0064B8AB /* NexaBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = AB965E541BDBBC080064B8AB /* NexaBlack.otf */; };
+		AB965E581BDBBC500064B8AB /* LessonItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB965E571BDBBC500064B8AB /* LessonItemTableViewCell.m */; };
+		AB965E5B1BDBBEA80064B8AB /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB965E5A1BDBBEA80064B8AB /* NSString+Additions.m */; };
+		AB965E5E1BDBC0D70064B8AB /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB965E5D1BDBC0D70064B8AB /* UIColor+Additions.m */; };
+		AB965E6B1BDBC2E40064B8AB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E631BDBC2E40064B8AB /* AudioToolbox.framework */; };
+		AB965E6C1BDBC2E40064B8AB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E641BDBC2E40064B8AB /* CFNetwork.framework */; };
+		AB965E6D1BDBC2E40064B8AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E651BDBC2E40064B8AB /* CoreGraphics.framework */; };
+		AB965E6E1BDBC2E40064B8AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E661BDBC2E40064B8AB /* CoreLocation.framework */; };
+		AB965E6F1BDBC2E40064B8AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E671BDBC2E40064B8AB /* QuartzCore.framework */; };
+		AB965E701BDBC2E40064B8AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E681BDBC2E40064B8AB /* Security.framework */; };
+		AB965E711BDBC2E40064B8AB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E691BDBC2E40064B8AB /* StoreKit.framework */; };
+		AB965E721BDBC2E40064B8AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E6A1BDBC2E40064B8AB /* SystemConfiguration.framework */; };
+		AB965E741BDBC2F00064B8AB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E731BDBC2F00064B8AB /* libz.tbd */; };
+		AB965E761BDBC2F70064B8AB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E751BDBC2F70064B8AB /* libsqlite3.tbd */; };
+		AB965E781BDBC34B0064B8AB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E771BDBC34B0064B8AB /* Parse.framework */; };
+		AB965E7A1BDBC36A0064B8AB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E791BDBC36A0064B8AB /* Bolts.framework */; };
+		AB965E7F1BDBC3E80064B8AB /* Lesson.m in Sources */ = {isa = PBXBuildFile; fileRef = AB965E7E1BDBC3E80064B8AB /* Lesson.m */; };
+		AB965E891BDBE1F30064B8AB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AB965E881BDBE1F30064B8AB /* libc++.tbd */; };
+		ABF5A44B1BDFD120005A19C5 /* LessonQuizTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF5A44A1BDFD120005A19C5 /* LessonQuizTableViewController.m */; };
+		ABF5A44E1BDFD23F005A19C5 /* QuestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF5A44D1BDFD23F005A19C5 /* QuestionTableViewCell.m */; };
+		ABF5A4511BDFD384005A19C5 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF5A4501BDFD384005A19C5 /* Question.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		275AB0159990A22C4B94DF5A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AB73B7AD1BDBB2E200BBC1D2 /* HarvestKidzLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarvestKidzLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB73B7B11BDBB2E200BBC1D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB73B7B31BDBB2E200BBC1D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB73B7B41BDBB2E200BBC1D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB73B7BA1BDBB2E200BBC1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB73B7BC1BDBB2E200BBC1D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB73B7BF1BDBB2E200BBC1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB73B7C11BDBB2E200BBC1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB73B7C71BDBB55900BBC1D2 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		AB73B7C81BDBB55900BBC1D2 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		AB965E511BDBBA7B0064B8AB /* LessonsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonsTableViewController.h; sourceTree = "<group>"; };
+		AB965E521BDBBA7B0064B8AB /* LessonsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonsTableViewController.m; sourceTree = "<group>"; };
+		AB965E541BDBBC080064B8AB /* NexaBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NexaBlack.otf; sourceTree = "<group>"; };
+		AB965E561BDBBC500064B8AB /* LessonItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonItemTableViewCell.h; sourceTree = "<group>"; };
+		AB965E571BDBBC500064B8AB /* LessonItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonItemTableViewCell.m; sourceTree = "<group>"; };
+		AB965E591BDBBEA80064B8AB /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		AB965E5A1BDBBEA80064B8AB /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		AB965E5C1BDBC0D70064B8AB /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		AB965E5D1BDBC0D70064B8AB /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		AB965E5F1BDBC1240064B8AB /* HarvestKidzLesson-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HarvestKidzLesson-PrefixHeader.pch"; sourceTree = "<group>"; };
+		AB965E611BDBC29D0064B8AB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../../../Downloads/parse-library-1.9.0/Parse.framework"; sourceTree = "<group>"; };
+		AB965E631BDBC2E40064B8AB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AB965E641BDBC2E40064B8AB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AB965E651BDBC2E40064B8AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB965E661BDBC2E40064B8AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AB965E671BDBC2E40064B8AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AB965E681BDBC2E40064B8AB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AB965E691BDBC2E40064B8AB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		AB965E6A1BDBC2E40064B8AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AB965E731BDBC2F00064B8AB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AB965E751BDBC2F70064B8AB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AB965E771BDBC34B0064B8AB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		AB965E791BDBC36A0064B8AB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AB965E7D1BDBC3E70064B8AB /* Lesson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lesson.h; sourceTree = "<group>"; };
+		AB965E7E1BDBC3E80064B8AB /* Lesson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lesson.m; sourceTree = "<group>"; };
+		AB965E881BDBE1F30064B8AB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		ABF5A4491BDFD120005A19C5 /* LessonQuizTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonQuizTableViewController.h; sourceTree = "<group>"; };
+		ABF5A44A1BDFD120005A19C5 /* LessonQuizTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonQuizTableViewController.m; sourceTree = "<group>"; };
+		ABF5A44C1BDFD23F005A19C5 /* QuestionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionTableViewCell.h; sourceTree = "<group>"; };
+		ABF5A44D1BDFD23F005A19C5 /* QuestionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionTableViewCell.m; sourceTree = "<group>"; };
+		ABF5A44F1BDFD384005A19C5 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		ABF5A4501BDFD384005A19C5 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		CB93F9031B5BA98B40033933 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E94052A4246158058530F232 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB73B7AA1BDBB2E200BBC1D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB965E741BDBC2F00064B8AB /* libz.tbd in Frameworks */,
+				AB965E891BDBE1F30064B8AB /* libc++.tbd in Frameworks */,
+				AB965E761BDBC2F70064B8AB /* libsqlite3.tbd in Frameworks */,
+				AB965E6B1BDBC2E40064B8AB /* AudioToolbox.framework in Frameworks */,
+				AB965E7A1BDBC36A0064B8AB /* Bolts.framework in Frameworks */,
+				AB965E6C1BDBC2E40064B8AB /* CFNetwork.framework in Frameworks */,
+				AB965E6D1BDBC2E40064B8AB /* CoreGraphics.framework in Frameworks */,
+				AB965E6E1BDBC2E40064B8AB /* CoreLocation.framework in Frameworks */,
+				AB965E781BDBC34B0064B8AB /* Parse.framework in Frameworks */,
+				AB965E6F1BDBC2E40064B8AB /* QuartzCore.framework in Frameworks */,
+				AB965E701BDBC2E40064B8AB /* Security.framework in Frameworks */,
+				AB965E711BDBC2E40064B8AB /* StoreKit.framework in Frameworks */,
+				AB965E721BDBC2E40064B8AB /* SystemConfiguration.framework in Frameworks */,
+				6742CA783805AEC7A36319F8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB73B7A41BDBB2E200BBC1D2 = {
+			isa = PBXGroup;
+			children = (
+				AB965E7B1BDBC3C60064B8AB /* Frameworks */,
+				AB73B7AF1BDBB2E200BBC1D2 /* HarvestKidzLesson */,
+				AB73B7AE1BDBB2E200BBC1D2 /* Products */,
+				FAE0B4B17C047A92544E8608 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AB73B7AE1BDBB2E200BBC1D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB73B7AD1BDBB2E200BBC1D2 /* HarvestKidzLesson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB73B7AF1BDBB2E200BBC1D2 /* HarvestKidzLesson */ = {
+			isa = PBXGroup;
+			children = (
+				AB965E7C1BDBC3DA0064B8AB /* Helper */,
+				AB73B7B31BDBB2E200BBC1D2 /* AppDelegate.h */,
+				AB73B7B41BDBB2E200BBC1D2 /* AppDelegate.m */,
+				AB965E511BDBBA7B0064B8AB /* LessonsTableViewController.h */,
+				AB965E521BDBBA7B0064B8AB /* LessonsTableViewController.m */,
+				AB73B7C71BDBB55900BBC1D2 /* PDFViewController.h */,
+				AB73B7C81BDBB55900BBC1D2 /* PDFViewController.m */,
+				AB965E561BDBBC500064B8AB /* LessonItemTableViewCell.h */,
+				AB965E571BDBBC500064B8AB /* LessonItemTableViewCell.m */,
+				ABF5A4491BDFD120005A19C5 /* LessonQuizTableViewController.h */,
+				ABF5A44A1BDFD120005A19C5 /* LessonQuizTableViewController.m */,
+				ABF5A44C1BDFD23F005A19C5 /* QuestionTableViewCell.h */,
+				ABF5A44D1BDFD23F005A19C5 /* QuestionTableViewCell.m */,
+				AB73B7B91BDBB2E200BBC1D2 /* Main.storyboard */,
+				AB73B7B01BDBB2E200BBC1D2 /* Supporting Files */,
+				AB965E601BDBC15A0064B8AB /* Categories */,
+			);
+			path = HarvestKidzLesson;
+			sourceTree = "<group>";
+		};
+		AB73B7B01BDBB2E200BBC1D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB965E541BDBBC080064B8AB /* NexaBlack.otf */,
+				AB73B7BE1BDBB2E200BBC1D2 /* LaunchScreen.storyboard */,
+				AB73B7B11BDBB2E200BBC1D2 /* main.m */,
+				AB73B7BC1BDBB2E200BBC1D2 /* Assets.xcassets */,
+				AB73B7C11BDBB2E200BBC1D2 /* Info.plist */,
+				AB965E5F1BDBC1240064B8AB /* HarvestKidzLesson-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB965E601BDBC15A0064B8AB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AB965E591BDBBEA80064B8AB /* NSString+Additions.h */,
+				AB965E5A1BDBBEA80064B8AB /* NSString+Additions.m */,
+				AB965E5C1BDBC0D70064B8AB /* UIColor+Additions.h */,
+				AB965E5D1BDBC0D70064B8AB /* UIColor+Additions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		AB965E7B1BDBC3C60064B8AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB965E881BDBE1F30064B8AB /* libc++.tbd */,
+				AB965E791BDBC36A0064B8AB /* Bolts.framework */,
+				AB965E751BDBC2F70064B8AB /* libsqlite3.tbd */,
+				AB965E731BDBC2F00064B8AB /* libz.tbd */,
+				AB965E771BDBC34B0064B8AB /* Parse.framework */,
+				AB965E631BDBC2E40064B8AB /* AudioToolbox.framework */,
+				AB965E641BDBC2E40064B8AB /* CFNetwork.framework */,
+				AB965E651BDBC2E40064B8AB /* CoreGraphics.framework */,
+				AB965E661BDBC2E40064B8AB /* CoreLocation.framework */,
+				AB965E671BDBC2E40064B8AB /* QuartzCore.framework */,
+				AB965E681BDBC2E40064B8AB /* Security.framework */,
+				AB965E691BDBC2E40064B8AB /* StoreKit.framework */,
+				AB965E6A1BDBC2E40064B8AB /* SystemConfiguration.framework */,
+				AB965E611BDBC29D0064B8AB /* Parse.framework */,
+				E94052A4246158058530F232 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB965E7C1BDBC3DA0064B8AB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AB965E7D1BDBC3E70064B8AB /* Lesson.h */,
+				AB965E7E1BDBC3E80064B8AB /* Lesson.m */,
+				ABF5A44F1BDFD384005A19C5 /* Question.h */,
+				ABF5A4501BDFD384005A19C5 /* Question.m */,
+			);
+			name = Helper;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FAE0B4B17C047A92544E8608 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				275AB0159990A22C4B94DF5A /* Pods.debug.xcconfig */,
+				CB93F9031B5BA98B40033933 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB73B7AC1BDBB2E200BBC1D2 /* HarvestKidzLesson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB73B7C41BDBB2E200BBC1D2 /* Build configuration list for PBXNativeTarget "HarvestKidzLesson" */;
+			buildPhases = (
+				585E3B31F23B6637C92A56E1 /* Check Pods Manifest.lock */,
+				AB73B7A91BDBB2E200BBC1D2 /* Sources */,
+				AB73B7AA1BDBB2E200BBC1D2 /* Frameworks */,
+				AB73B7AB1BDBB2E200BBC1D2 /* Resources */,
+				51D652411333BE2850BE286C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarvestKidzLesson;
+			productName = HarvestKidzLesson;
+			productReference = AB73B7AD1BDBB2E200BBC1D2 /* HarvestKidzLesson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB73B7A51BDBB2E200BBC1D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Lawrence Tan";
+				TargetAttributes = {
+					AB73B7AC1BDBB2E200BBC1D2 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 5U4MH93EC9;
+					};
+				};
+			};
+			buildConfigurationList = AB73B7A81BDBB2E200BBC1D2 /* Build configuration list for PBXProject "HarvestKidzLesson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB73B7A41BDBB2E200BBC1D2;
+			productRefGroup = AB73B7AE1BDBB2E200BBC1D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB73B7AC1BDBB2E200BBC1D2 /* HarvestKidzLesson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB73B7AB1BDBB2E200BBC1D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB965E551BDBBC2B0064B8AB /* NexaBlack.otf in Resources */,
+				AB73B7C01BDBB2E200BBC1D2 /* LaunchScreen.storyboard in Resources */,
+				AB73B7BD1BDBB2E200BBC1D2 /* Assets.xcassets in Resources */,
+				AB73B7BB1BDBB2E200BBC1D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51D652411333BE2850BE286C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		585E3B31F23B6637C92A56E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB73B7A91BDBB2E200BBC1D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB73B7B51BDBB2E200BBC1D2 /* AppDelegate.m in Sources */,
+				ABF5A44E1BDFD23F005A19C5 /* QuestionTableViewCell.m in Sources */,
+				AB965E5E1BDBC0D70064B8AB /* UIColor+Additions.m in Sources */,
+				AB965E531BDBBA7B0064B8AB /* LessonsTableViewController.m in Sources */,
+				AB73B7C91BDBB55900BBC1D2 /* PDFViewController.m in Sources */,
+				ABF5A44B1BDFD120005A19C5 /* LessonQuizTableViewController.m in Sources */,
+				AB965E581BDBBC500064B8AB /* LessonItemTableViewCell.m in Sources */,
+				AB73B7B21BDBB2E200BBC1D2 /* main.m in Sources */,
+				ABF5A4511BDFD384005A19C5 /* Question.m in Sources */,
+				AB965E5B1BDBBEA80064B8AB /* NSString+Additions.m in Sources */,
+				AB965E7F1BDBC3E80064B8AB /* Lesson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB73B7B91BDBB2E200BBC1D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB73B7BA1BDBB2E200BBC1D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB73B7BE1BDBB2E200BBC1D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB73B7BF1BDBB2E200BBC1D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB73B7C21BDBB2E200BBC1D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB73B7C31BDBB2E200BBC1D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB73B7C51BDBB2E200BBC1D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 275AB0159990A22C4B94DF5A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HarvestKidzLesson/HarvestKidzLesson-PrefixHeader.pch";
+				INFOPLIST_FILE = HarvestKidzLesson/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.HarvestKidzLesson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AB73B7C61BDBB2E200BBC1D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB93F9031B5BA98B40033933 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HarvestKidzLesson/HarvestKidzLesson-PrefixHeader.pch";
+				INFOPLIST_FILE = HarvestKidzLesson/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hk.HarvestKidzLesson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB73B7A81BDBB2E200BBC1D2 /* Build configuration list for PBXProject "HarvestKidzLesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB73B7C21BDBB2E200BBC1D2 /* Debug */,
+				AB73B7C31BDBB2E200BBC1D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB73B7C41BDBB2E200BBC1D2 /* Build configuration list for PBXNativeTarget "HarvestKidzLesson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB73B7C51BDBB2E200BBC1D2 /* Debug */,
+				AB73B7C61BDBB2E200BBC1D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB73B7A51BDBB2E200BBC1D2 /* Project object */;
+}

@@ -1,0 +1,19 @@
+//
+//  HarvestKidzLesson-PrefixHeader.pch
+//  HarvestKidzLesson
+//
+//  Created by Lawrence Tan on 24/10/15.
+//  Copyright © 2015 Lawrence Tan. All rights reserved.
+//
+
+#ifndef HarvestKidzLesson_PrefixHeader_pch
+#define HarvestKidzLesson_PrefixHeader_pch
+
+#import "UIColor+Additions.h"
+#import "NSString+Additions.h"
+#import <Parse/Parse.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* HarvestKidzLesson_PrefixHeader_pch */
